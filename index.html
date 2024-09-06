@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/52e4d98df4.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/aviao-decolando.png" type="image/x-icon">
+    <title>Agência de viagens</title>
+</head>
+<body>
+    <header class="topo">
+        <h1><i class="fa-solid fa-location-dot"></i> Agência de Viagens</h1>
+    </header>
+    <section class="formulario">
+        <form action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/" method="post" class="form1">
+            <h2>Solicite um orçamento</h2>
+            <h3>Infome seus dados</h3>
+            <div class="dados">
+                <label for="">Nome</label>
+                <input type="text" placeholder="Digite seu nome" required>
+                <label for="">Email</label>
+                <input type="email" placeholder="email@.com.br" required>
+                <label for="">Telefone</label>
+                <input type="tel" placeholder="(xx)xxxxx-xxxx" required>
+            </div>
+            <div class="data">
+                <label for="">Data de ida</label>
+                <input type="date" required>
+                <label for="">Data de volta</label>
+                <input type="date" required> 
+            </div>
+            <div class="secao">
+                <label for="">Origem</label>
+                <select name="origem" id="origem">
+                    <optgroup label="Origem">
+                        <option value="">Selecione a cidade</option>
+                        <option value="Ac">Acre</option>
+                        <option value="Sp">São Paulo</option>
+                        <option value="Go">Goiânia</option>
+                        <option value="Mg">Minas Gerais</option>
+                        <option value="To">Tocantins</option>
+                        <option value="Pa">Pará</option>
+                    </optgroup>
+                </select>
+                <label for="">Destino</label>
+                <select name="destino" id="destino">
+                    <optgroup label="Destino">
+                        <option value="">Selecione a cidade</option>
+                        <option value="rj">Rio De Janeiro</option>
+                        <option value="Rs">Rio Grande dO sul</option>
+                        <option value="Ma">Maranhão</option>
+                        <option value="Df">Brasilia</option>
+                        <option value="Mt">Mato Grosso</option>
+                        <option value="Par">Paraná</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="secao1">
+                <legend>Quarto com cama infantil?</legend>
+                <label for="">Sim</label>
+                <input type="radio" name="resposta" id="sim">
+                <label for="">Não</label>
+                <input type="radio" name="resposta" id="nao">
+            </div>
+                <div class="secao2">
+                    <legend>Preferências na hospedagem</legend>
+                    <input type="checkbox" name="preferencias[]" id="Piscina">
+                    <label for="">Piscina</label>
+                    <input type="checkbox" name="preferencias[]" id="Wi-Fi">
+                    <label for="">Wi-Fi</label>
+                    <input type="checkbox" name="preferencias[]" id="Garagem">
+                    <label for="">Garagem</label>
+                    <input type="checkbox" name="preferencias[]" id="Suite">
+                    <label for="">Suite</label>
+                </div>
+            
+            <button type="submit">Solicitar orçamento</button>
+        </form>
+    </section>
+    <section class="galeria">
+        <h2>Ofertas</h2>
+        <h3>Com até 50% de desconto</h3>
+        <div class="galeria1">
+            <div class="img1">
+                <img src="img/rio.jpg" alt="">
+                <figcaption>Rio de Janeiro</figcaption>
+            </div>
+            <div class="galeria2">
+                <div class="img2">
+                    <img src="img/manaus.jpg" alt="">
+                    <figcaption>Manaus</figcaption>
+                </div>
+                <div class="img3">
+                    <img src="img/saopaulo.jpg" alt="">
+                    <figcaption>São Paulo</figcaption>
+                </div>
+                <div class="img4">
+                    <img src="img/niteroi.jpg" alt="">
+                    <figcaption>Rio de Janeiro</figcaption>
+                </div>
+                <div class="img5">
+                    <img src="img/maranhao.jpg" alt="">
+                    <figcaption>Maranhão</figcaption>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="galeria3">
+        <h2>Explore a Natureza</h2>
+        <h3>Viaje conosco e veja o melhor que a natureza tem a oferecer</h3>
+            <div class="galeria4">
+                <div class="img6">
+                    <img src="img/lencol.jpg" alt="">
+                    <h4>Lençois Maranhenses,Brasil</h4>
+                    <p>Ida e volta a partir de R$79</p>
+                </div>
+                <div class="img7">
+                    <img src="img/goias.jpg" alt="">
+                    <h4>Cachoeira Santa Bárbara,Brasil</h4>
+                    <p>Ida e volta por R$139</p>
+                </div>
+            </div>
+        
+    </section>
+    <footer class="rodape">
+        <div class="contato">
+            <h2>Contato</h2>
+            <li><i class="fa-solid fa-location-dot"></i> Senador Canedo, GO</li>
+            <li><i class="fa-solid fa-phone"></i> Telefone: (xx)xxxxx-xxxx</li>
+            <li><i class="fa-solid fa-envelope"></i> Email:contato@agencia.com.br</li>
+        </div>
+        <div class="redes">
+            <h2>Nossas Redes Sociais</h2>
+            <li><i class="fa-brands fa-facebook"></i> /AgenciaDeViagem</li>
+            <li><i class="fa-brands fa-instagram"></i> @AgenciaDeViagem</li>
+            <li><i class="fa-brands fa-tiktok"></i> @agenciaDeViagem</li>
+        </div>
+    </footer>
+</body>
+</html>
