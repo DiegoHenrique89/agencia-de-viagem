@@ -26,8 +26,7 @@ body{
     position: relative;
     display: flex;
     justify-content: center;
-    left: 100px;
-    max-width: 1500px;
+    max-width: 1700px;
     
 }
 .form1{
@@ -110,6 +109,12 @@ button:hover{
     cursor: pointer;
     transition: transform 0.1s ease;
     background-color: red;
+}
+.galeria{
+    margin: auto;
+    align-items: center;
+    
+    justify-content: center;
 }
 .galeria h2,h3{
     display: flex;
